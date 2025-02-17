@@ -29,7 +29,7 @@ The collected data is in raw format, and hence needs processed. This is done as 
 The final cleaned data is stored as cleaned_books_data.csv.
 
 
-## Recommendation Model Creation
+## Content-based Recommendation Model
 The model.ipynb file shows implementation of a book recommendation system that suggests books based on genre similarity, popularity, and user ratings. It processes a dataset of books, computes genre frequencies, and generates recommendations by combining these factors into a weighted score. The system can save and load its state using serialization, allowing for reuse without retraining. The basic mechanism includes:
 
 ### Genre Similarity Calculation:
@@ -58,7 +58,7 @@ When a user provides a book title, the system:
 The final model is saved as a Pickle file named book_recommender.pkl.
 
 
-## Genre-based search Model Creation
+## Genre-based Search Model
 The genre_match.ipynb displays creation of a simple model that filters books from a CSV file based on genre criteria. The code allows filtering books based on one or more genres, with options to match any or all specified genres. The filtering criteria is set to Match all genres (strictly filter books that contain every specified genre). 
 The final model is saved as a Pickle file named books_model.pkl.
 
