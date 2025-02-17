@@ -3,16 +3,16 @@
 The Bookworm is a book recommendation system based on the concept of content-based filtering. It recommends books based on the content (genres) of the books themselves, rather than relying on user interactions or collaborative data. Specifically, it uses genre similarity, popularity, and ratings to generate recommendations, which are all content-based features. 
 
 The homepage:
-![the-bookworm](./static/images/index_result1.png)
-![the-bookworm](./static/images/index_result2.png)
+![homepage1](./static/index_result1.png)
+![homepage2](./static/index_result2.png)
 
 The recommendations page:
-![the-bookworm](./static/images/recommend_result1.png)
-![the-bookworm](./static/images/recommend_result2.png)
+![recommendpg1](./static/recommend_result1.png)
+![recommendpg2](./static/recommend_result2.png)
 
 The genre-match page:
-![the-bookworm](./static/images/genre_result1.png)
-![the-bookworm](./static/images/genre_result2.png)
+![genrematch1](./static/genre_result1.png)
+![genrematch2](./static/genre_result2.png)
 
 
 ## About the Dataset
