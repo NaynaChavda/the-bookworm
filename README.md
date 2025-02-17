@@ -1,4 +1,4 @@
-# the-bookworm
+# The BookWorm
 
 The Bookworm is a book recommendation system based on the concept of content-based filtering. It recommends books based on the content (genres) of the books themselves, rather than relying on user interactions or collaborative data. Specifically, it uses genre similarity, popularity, and ratings to generate recommendations, which are all content-based features. 
 
