@@ -24,14 +24,14 @@ The model.ipynb file shows implementation of a book recommendation system that s
  - To rank books, the system combines multiple factors into a weighted score:
    Final Score = (0.5 × Genre Similarity) + (0.3 × Rating Factor) + (0.2 × Popularity Bonus)
  - Genre Similarity (50%)
-  - Measures how many genres two books have in common.
-  - Books with a higher genre overlap get a better score.
+   1. Measures how many genres two books have in common.
+   2. Books with a higher genre overlap get a better score.
  - Rating Factor (30%)
-  - Books with higher user ratings (out of 5) are preferred.
-  - If a book’s rating is missing, a default mid-range rating is assumed.
+   1. Books with higher user ratings (out of 5) are preferred.
+   2. If a book’s rating is missing, a default mid-range rating is assumed.
  - Popularity Bonus (20%)
-  - More popular genres (those occurring frequently in the dataset) get a small boost.
-  - The most popular genre is used as a normalization factor to scale this value.
+   1. More popular genres (those occurring frequently in the dataset) get a small boost.
+   2. The most popular genre is used as a normalization factor to scale this value.
 
 When a user provides a book title, the system:
 1.Finds the Book in the dataset.
